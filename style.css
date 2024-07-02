@@ -1,0 +1,108 @@
+body {
+    background-image: url(bg_photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color:  #557338;
+    background-color: rgba(255, 255, 255, 0.323); 
+    font-family: "Patua One", serif;
+    font-weight: 700;
+    font-style: normal;
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.christmas {
+    background-color: rgba(251, 248, 249, 0.82); 
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 30px;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #365E32;
+}
+
+.red {
+    color: red;
+    font-family: "Patua One", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 70px;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+.buttonPlay {
+    width: 100px;
+}
+
+.buttonStop {
+    width: 100px;
+}
+
+.par {
+    font-size: 20px;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #365E32;
+    margin-left: 15px;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+        color: #557338;
+    }
+
+    body {
+        background-color: #335b2e;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    h1 {
+        font-size: 35px;  
+        color: #557338;
+        justify-self: center;
+        width: 250px;
+    }
+
+}
